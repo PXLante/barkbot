@@ -15,4 +15,6 @@ async def on_message(message):
     if message.content.lower() == "bark":
         await message.channel.send('bark')
 
+
+
 client.run(bot_token)
